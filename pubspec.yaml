@@ -1,0 +1,73 @@
+name: apple_shop
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  smooth_page_indicator: ^1.0.1
+  dotted_line: ^3.1.0
+  dartz: ^0.10.1
+  dio: ^4.0.6 
+  get_it: ^7.2.0
+  shared_preferences: ^2.0.20 
+  bloc: ^8.1.0 
+  flutter_bloc: ^8.1.1 
+  cached_network_image: ^3.2.3
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - images/
+
+  fonts:
+    - family: GR
+      fonts:
+        - asset: fonts/GilroyRegular.ttf
+          weight: 400
+
+    - family: GM
+      fonts:
+        - asset: fonts/GilroyMedium.ttf
+          weight: 500
+
+    - family: GB
+      fonts:
+        - asset: fonts/GilroyBold.ttf
+          weight: 700
+
+    - family: GEB
+      fonts:
+        - asset: fonts/GilroyExtraBold.ttf
+          weight: 800
+
+    - family: GH
+      fonts:
+        - asset: fonts/GilroyHeavy.ttf
+          weight: 900
+
+    - family: SM
+      fonts:
+        - asset: fonts/ShabnamMedium.ttf
+          weight: 500
+
+    - family: SB
+      fonts:
+        - asset: fonts/ShabnamBold.ttf
+          weight: 700
